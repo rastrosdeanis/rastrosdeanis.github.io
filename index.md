@@ -14,6 +14,11 @@ title: "Rastros de Anis"
   </p>
 </div>
 
+<div class="free-block" style="top: 80px; left: 60px;">
+  <img class="free-img" src="assets/images/Hipotese do Tempo 31-03.jpg">
+</div>
+
+
 <div class="free-block" style="top: 100px; left: 450px;">
   <img class="free-img" src="https://via.placeholder.com/250x250" alt="">
 </div>
