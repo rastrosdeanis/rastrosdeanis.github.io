@@ -9,7 +9,7 @@ title: "Rastros de Anis"
 
 <div class="free-block" style="top: 300px; left: 120px;">
   <p class="free-text">
-    fragmentos, ecos, rastros  
+    fragmentos, ecos, rastros/br
     territórios de poeira digital
   </p>
 </div>
