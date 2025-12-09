@@ -1,9 +1,10 @@
 title: "Rastros de Anis"
-description: "Colagens, fragmentos e percursos digitais."
-baseurl: ""
+description: ""
 url: "https://rastrosdeanis.github.io"
+baseurl: ""
 markdown: kramdown
 theme: null
+
 
 collections:
   posts:
