@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: default
 title: "O desejo de abrir fendas no Tempo"
 date: 2025-01-16
 categories: blog
