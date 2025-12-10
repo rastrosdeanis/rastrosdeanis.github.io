@@ -9,11 +9,18 @@ categories: blog
 <div style="background-color: #000;">
 
   <!-- Imagem centralizada -->
-  <div style="max-width: 420px; margin: 0 auto 2rem auto;">
-    <img src="/assets/images/rubreo.jpg" 
-         alt="Rubreo"
-         style="width:100%; height:auto;">
-  </div>
+  <div class="free-block"
+     style="
+       position: relative;
+       max-width: 360px;
+       margin: 120px auto 0 auto; /* centraliza */
+       z-index: 5;
+     ">
+  <img class="free-img" 
+       src="/assets/images/rubreo.jpg"
+       style="width: 100%; height: auto;">
+</div>
+
 
   <!-- Texto centralizado com quebras preservadas -->
   <div style="
