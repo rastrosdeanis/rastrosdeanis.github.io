@@ -23,6 +23,8 @@ categories: blog
        color: #fff;
        font-size: 1.25rem;
        line-height: 1.9;
+       font-family: 'Crimson Text', serif;
+       font-style: italic;
        white-space: pre-wrap;
      ">
 
