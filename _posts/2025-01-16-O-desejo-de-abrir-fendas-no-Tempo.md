@@ -12,7 +12,7 @@ categories: blog
   <div style="max-width: 420px; margin: 0 auto 2rem auto;">
     <img src="/assets/images/rubreo.jpg" 
          alt="Rubreo"
-         style="width:120%; height:auto;">
+         style="width:100%; height:auto;">
   </div>
 
   <!-- Texto centralizado com quebras preservadas -->
