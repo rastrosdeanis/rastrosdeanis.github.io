@@ -12,7 +12,8 @@ categories: blog
 </div>
 
 <div style="line-height: 1.8; font-size: 1.15rem; white-space: pre-wrap;">
-
+<br>
+  <br>
 O desejo de abrir fendas no Tempo,  
 assim como se abre um corte no corpo,  
 para fazer o vermelho da vida escorrer no Mundo.
