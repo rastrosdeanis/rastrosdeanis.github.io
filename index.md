@@ -9,11 +9,11 @@ title: "Rastros de Anis"
 
 <div style="
   position: absolute;
-  top: 40px;
-  left: 40px;
+  top: 60px;
+  left: 60px;
   font-size: 2.2rem;
   font-family: 'Crimson Text', serif;
-  font-style: italic;
+  font-style: italic; bold;
   color: #e6e6e6;
   letter-spacing: 1px;
   z-index: 10;
@@ -34,15 +34,14 @@ title: "Rastros de Anis"
 <div class="free-block"
      style="
        position: absolute;
-       top: 90px;
-       right: 150px;
+       top: 60px;
+       right: 360px;
        max-width: 360px;
        z-index: 5;
      ">
     <img class="free-img" 
          src="/assets/images/IMG_0533 (1).jpg"
-         style="width: 100%; height: auto;">
-  </a>
+         style="width: 60%; height: auto;">
 </div>
 
 
