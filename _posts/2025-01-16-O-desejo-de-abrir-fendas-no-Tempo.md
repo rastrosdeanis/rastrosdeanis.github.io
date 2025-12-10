@@ -9,7 +9,7 @@ categories: blog
 <div style="background-color: #000;">
 
   <!-- Imagem centralizada -->
-  <div style="max-width: 420px; margin: 0 auto 2rem auto;">
+  <div style="max-width: 2000px; margin: 0 auto 2rem auto;">
     <img src="/assets/images/rubreo.jpg" 
          alt="Rubreo"
          style="width:120%; height:auto;">
