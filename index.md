@@ -13,7 +13,7 @@ title: "Rastros de Anis"
   left: 120px;
   font-size: 2.2rem;
   font-family: 'Crimson Text', serif;
-  font-style: italic; bold;
+  font-style: italic;
   color: #e6e6e6;
   letter-spacing: 1px;
   z-index: 10;
