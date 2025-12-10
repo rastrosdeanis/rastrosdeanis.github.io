@@ -1,11 +1,24 @@
+---
+# Front matter necessário para o Jekyll processar
+---
+
+@import "{{ site.theme }}";
+
+
+/* Importar Crimson Text (inclui itálico) */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,600&display=swap');
+
+/* Corpo geral – blog e páginas comuns */
 body {
   margin: 0;
   padding: 0;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Crimson Text", serif;
+  font-style: italic;
   color: #e6e6e6;
-  background: #0e0e0e;
+  background: #000 !important;
 }
 
+/* Links */
 a {
   color: #e0aaff;
   text-decoration: none;
@@ -15,30 +28,48 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Cabeçalho */
 .header {
   padding: 20px;
   border-bottom: 1px solid #333;
+  background: #000 !important;
 }
 
+/* Título do site */
 .site-title a {
   font-size: 1.8rem;
-  font-weight: bold;
+  font-weight: 600;
   color: #fafafa;
 }
 
+/* Navegação */
 .nav a {
   margin-right: 15px;
 }
 
-.content {
+/* Conteúdo padrão de posts e páginas */
+.content,
+.post-content,
+.post {
   max-width: 750px;
-  margin: auto;
+  margin: 0 auto;
   padding: 30px;
+  background: #000 !important;
+  color: #e6e6e6;
+  font-family: "Crimson Text", serif;
+  font-style: italic;
 }
 
-/* Layout em branco: total liberdade */
+/* Remover qualquer bloco branco imposto pelo tema */
+.page,
+.wrapper,
+.site {
+  background: #000 !important;
+}
+
+/* Layout livre (homepage) */
 .blank-body {
-  background: #000;
+  background: #000 !important;
   color: #eee;
   margin: 0;
   padding: 0;
@@ -54,8 +85,11 @@ a:hover {
 .free-text {
   font-size: 1rem;
   line-height: 1.4;
+  font-family: "Crimson Text", serif;
+  font-style: italic;
 }
 
 .free-img {
   width: 100%;
 }
+
