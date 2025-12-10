@@ -22,7 +22,7 @@ title: "Rastros de Anis"
        max-width: 360px;
        z-index: 5;
      ">
-  <a href="/blog/o-desejo-de-abrir-fendas-no-tempo">
+  <a href="<a href="/blog/2025/01/16/O-desejo-de-abrir-fendas-no-Tempo.html">">
     <img class="free-img" 
          src="/assets/images/rubreo.jpg"
          style="width: 100%; height: auto;">
