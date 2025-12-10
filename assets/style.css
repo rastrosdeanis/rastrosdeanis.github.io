@@ -1,25 +1,21 @@
-/* Fonte Crimson */
-@font-face {
-  font-family: "Crimson";
-  src: url("/assets/fonts/CrimsonText-Regular.ttf") format("truetype");
-  font-style: normal;
-  font-weight: 400;
-}
+---
+# Front matter necessário para o Jekyll processar
+---
 
-@font-face {
-  font-family: "Crimson";
-  src: url("/assets/fonts/CrimsonText-Italic.ttf") format("truetype");
-  font-style: italic;
-  font-weight: 400;
-}
+@import "{{ site.theme }}";
 
-html, body {
+
+/* Importar Crimson Text (inclui itálico) */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,600&display=swap');
+
+/* Corpo geral – blog e páginas comuns */
+body {
   margin: 0;
   padding: 0;
-  height: 100%;
-  background: #0e0e0e !important;
+  font-family: "Crimson Text", serif;
+  font-style: italic;
   color: #e6e6e6;
-  font-family: "Crimson", serif !important;
+  background: #000 !important;
 }
 
 /* Links */
@@ -32,43 +28,48 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Remover bordas brancas e margens do blog */
-.page-content,
-.wrapper,
-.post,
+/* Cabeçalho */
+.header {
+  padding: 20px;
+  border-bottom: 1px solid #333;
+  background: #000 !important;
+}
+
+/* Título do site */
+.site-title a {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #fafafa;
+}
+
+/* Navegação */
+.nav a {
+  margin-right: 15px;
+}
+
+/* Conteúdo padrão de posts e páginas */
+.content,
 .post-content,
-.site-header,
-.site-footer,
-main {
-  margin: 0 !important;
-  padding: 0 !important;
-  background: #0e0e0e !important;
-  border: none !important;
+.post {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 30px;
+  background: #000 !important;
+  color: #e6e6e6;
+  font-family: "Crimson Text", serif;
+  font-style: italic;
 }
 
-.page-content .wrapper {
-  max-width: 100% !important;
+/* Remover qualquer bloco branco imposto pelo tema */
+.page,
+.wrapper,
+.site {
+  background: #000 !important;
 }
 
-/* Estética do texto do post */
-.post-content {
-  text-align: center !important;
-  line-height: 1.8;
-  font-size: 1.15rem;
-  padding: 2rem 1rem;
-}
-
-/* Imagens dos posts */
-.post-content img {
-  display: block;
-  margin: 0 auto 2rem auto;
-  max-width: 420px;
-  height: auto;
-}
-
-/* Layout em branco da homepage */
+/* Layout livre (homepage) */
 .blank-body {
-  background: #000;
+  background: #000 !important;
   color: #eee;
   margin: 0;
   padding: 0;
@@ -84,8 +85,11 @@ main {
 .free-text {
   font-size: 1rem;
   line-height: 1.4;
+  font-family: "Crimson Text", serif;
+  font-style: italic;
 }
 
 .free-img {
   width: 100%;
 }
+
