@@ -21,11 +21,12 @@ categories: blog
          style="width:100%; height:auto;">
   </div>
 
+<br><br>
 O desejo de abrir fendas no Tempo,  
 assim como se abre um corte no corpo,  
 para fazer o vermelho da vida escorrer no Mundo.
 
-<br><br>
+<br>
 
 Me deixa descansar no Vazio só mais um pouco,  
 que só assim eu consigo ser inteiro.  
