@@ -12,7 +12,7 @@ categories: blog
   <div class="free-block"
      style="
        position: relative;
-       max-width: 360px;
+       max-width: 560px;
        margin: 120px auto 0 auto; /* centraliza */
        z-index: 5;
      ">
