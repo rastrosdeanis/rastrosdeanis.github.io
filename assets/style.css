@@ -39,6 +39,14 @@ a {
   line-height: 1.6;
 }
 
+.reading-field {
+  position: relative;
+  max-width: 760px;
+  margin-left: 120px;
+  margin-top: 200px;
+}
+
+
 /* Imagens livres */
 
 .free-img {
