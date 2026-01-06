@@ -29,6 +29,8 @@ title: "Rastros de Anis"
     fragmentos, ecos, rastros<br>
     territórios de poeira digital
   </p>
+  
+<br><br>
 
   <p class="free-text">
     <a href="/blog/">Blog</a><br>
