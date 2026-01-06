@@ -1,15 +1,4 @@
-/* =====================================================
-   FONTE
-===================================================== */
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
-
-
-/* =====================================================
-   RESET BÁSICO
-===================================================== */
-* {
-  box-sizing: border-box;
-}
 
 html, body {
   margin: 0;
@@ -19,72 +8,26 @@ html, body {
   font-family: "Crimson Text", serif;
 }
 
-
-/* =====================================================
-   LINKS
-===================================================== */
-a {
-  color: #e0aaff;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-
-/* =====================================================
-   LAYOUT BLANK (BASE DO SITE)
-===================================================== */
 .blank-body {
   background: #000;
   min-height: 100vh;
-  overflow-x: hidden;
-  position: relative;
 }
 
-/* Container para páginas textuais (blog, projetos, posts) */
 .blank-content {
   max-width: 760px;
   margin: 0 auto;
-  padding: 120px 40px 80px 40px;
-}
-
-/* Tipografia padrão do blank */
-.blank-content p,
-.blank-content li,
-.blank-content blockquote {
-  font-size: 1.15rem;
-  line-height: 1.65;
+  padding: 120px 40px;
   font-style: italic;
 }
 
-/* Títulos */
 .blank-content h1,
 .blank-content h2,
 .blank-content h3 {
   font-weight: 700;
-  font-style: italic;
-  margin-bottom: 1.5rem;
 }
 
-
-/* =====================================================
-   HOMEPAGE LIVRE (COLAGEM)
-===================================================== */
-.free-block {
-  position: relative;
-}
-
-.free-text {
-  font-size: 1.15rem;
-  line-height: 1.6;
-  font-style: italic;
-}
-
-.free-img {
-  width: 100%;
-  height: auto;
-  display: block;
+a {
+  color: #e0aaff;
+  text-decoration: none;
 }
 
