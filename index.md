@@ -18,7 +18,7 @@ title: "Rastros de Anis"
   letter-spacing: 1px;
   z-index: 10;
 ">
-  Rastros de Anis
+  <h1>Rastros de Anis</h1>
 </div>
 
 
