@@ -11,15 +11,17 @@ title: "Rastros de Anis"
   position: absolute;
   top: 60px;
   left: 120px;
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   font-family: 'Crimson Text', serif;
   font-style: italic;
+  font-weight: 700;
   color: #e6e6e6;
   letter-spacing: 1px;
   z-index: 10;
 ">
-  <h1>Rastros de Anis</h1>
+  Rastros de Anis
 </div>
+
 
 
 <div class="free-block" style="top: 300px; left: 120px;">
