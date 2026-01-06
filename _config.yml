@@ -2,24 +2,14 @@ title: "Rastros de Anis"
 description: ""
 url: "https://rastrosdeanis.github.io"
 baseurl: ""
+
 markdown: kramdown
 theme: null
-
 
 collections:
   posts:
     output: true
 
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: default
-  - scope:
-      path: ""
-    values:
-      layout: default
-
 sass:
   style: compressed
+
