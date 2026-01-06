@@ -7,5 +7,5 @@ title: Projetos
 
 <p>se isso aparece, o layout está funcionando</p>
 
-<img src="assets/images/rubreo.jpg">
+<img src="assets/images/projetos/psicodelias urbanas I.jpg">
 
