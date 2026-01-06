@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
+/* ===== BASE ===== */
+
 html, body {
   margin: 0;
   padding: 0;
@@ -8,35 +10,41 @@ html, body {
   font-family: "Crimson Text", serif;
 }
 
-
-.free-text {
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-
-.blank-body {
-  background: #000;
-  min-height: 100vh;
-}
-
-
-.blank-content {
-  max-width: 760px;
-  margin: 0 auto;
-  padding: 120px 40px;
-  font-style: italic;
-}
-
-
-.blank-content h1,
-.blank-content h2,
-.blank-content h3 {
-  font-weight: 700;
-}
+/* ===== LINKS ===== */
 
 a {
   color: #e0aaff;
   text-decoration: none;
 }
+
+/* ===== CANVA (LAYOUT BLANK) ===== */
+
+.blank-body {
+  position: relative;
+  min-height: 100vh;
+  background: #000;
+  overflow-x: hidden;
+}
+
+/* Blocos livres */
+
+.free-block {
+  position: absolute;
+}
+
+.free-text {
+  margin: 0;
+  padding: 0;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+/* Imagens livres */
+
+.free-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 
