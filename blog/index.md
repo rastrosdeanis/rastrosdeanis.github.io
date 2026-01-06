@@ -7,7 +7,6 @@ title: Blog
 
 Aqui ficam os textos, rastros e fragmentos.
 
----
 
 <ul>
   {% for post in site.posts %}
