@@ -9,12 +9,18 @@ title: Blog
     Blog
   </h1>
 
-<br><br>
-
   <p class="free-text">
-    Meus projetos.
+    Aqui ficam os textos, rastros e fragmentos.
   </p>
 
-
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li class="post-item">
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
 
 </div>
