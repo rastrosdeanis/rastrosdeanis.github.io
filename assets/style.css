@@ -64,45 +64,34 @@ a {
 }
 
 
-/* =========================
-   PROJETOS — CAMPO VISUAL
-========================= */
+/* ===== PROJECTS GRID ===== */
 
-.projects-field {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 120px 40px;
-}
-
-.projects-title {
-  font-size: 2.8rem;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
-.projects-intro {
-  font-style: italic;
-  margin-bottom: 60px;
-}
-
-/* GRID */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 32px;
+
+  max-width: 1100px;
+  margin: 120px auto 160px auto;
+  padding: 0 120px;
 }
 
-/* IMAGENS */
+.project-item {
+  position: relative;
+}
+
 .project-item img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
   display: block;
-  filter: grayscale(20%);
-  transition: transform 0.3s ease, filter 0.3s ease;
+
+  filter: grayscale(100%);
+  transition: filter 0.4s ease, transform 0.4s ease;
 }
 
-.project-item img:hover {
-  transform: scale(1.02);
+.project-item:hover img {
   filter: grayscale(0%);
+  transform: scale(1.02);
 }
 
