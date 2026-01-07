@@ -3,9 +3,18 @@ layout: blank
 title: Projetos
 ---
 
-<h1>Projetos</h1>
+<div class="reading-field">
 
-<p>se isso aparece, o layout está funcionando</p>
+  <h1 class="site-title">
+    Projetos
+  </h1>
 
-<img src="assets/images/projetos/psicodelias urbanas I.jpg">
+<br><br>
 
+  <p class="free-text">
+    Meus projetos.
+  </p>
+
+
+
+</div>
