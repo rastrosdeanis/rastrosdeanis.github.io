@@ -3,10 +3,6 @@ layout: blank
 title: "Rastros de Anis"
 ---
 
-<div class="free-block" style="top: 40px; left: 60px;">
-  <img class="free-img" src="https://via.placeholder.com/300x200" alt="">
-</div>
-
 <!-- Campo de leitura -->
 <div class="reading-field">
 
